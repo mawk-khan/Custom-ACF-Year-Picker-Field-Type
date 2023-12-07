@@ -1,50 +1,57 @@
-# ACF Year Picker Custom Field
+# ACF Year Picker Custom Field Plugin
 
 ## Description
 
-ACF Year Picker is a custom field extension for Advanced Custom Fields (ACF) that allows users to select a year from a dropdown. It's built to enhance the ACF plugin by providing a simple and intuitive interface for year-only selection, ideal for use cases where only the year part of a date is relevant.
+The ACF Year Picker plugin extends the functionality of the Advanced Custom Fields (ACF) plugin by adding a custom field type called 'Year Picker'. This field allows users to select a year from a dropdown, leveraging the jQuery UI Datepicker, but modified to only display and select the Year. It's an ideal solution for cases where only the Year is relevant in date-related data.
 
 ## Features
 
-- **Year-Only Selection**: Users can select a year from a dropdown, simplifying data entry.
-- **Customizable Range**: The range of years displayed in the dropdown is customizable.
-- **Seamless Integration**: Works seamlessly with existing ACF installations.
+- **Year-Only Selection**: Simplifies date-related fields by allowing users to select only a year.
+- **Customizable Year Range**: Developers can easily adjust the years available for selection.
+- **Seamless ACF Integration**: Works alongside standard ACF fields without conflict.
 
 ## Installation
 
-1. Clone or download the repository into your WordPress plugin directory.
-2. Navigate to the WordPress admin panel and activate the plugin.
-3. Use the 'Year Picker' field type in your ACF field groups.
+1. Download the plugin from the GitHub repository.
+2. Upload the plugin files to the `/wp-content/Custom-ACF-Year-Picker-Field-Type` directory, or install the plugin through the WordPress plugins screen.
+3. Activate the plugin through the 'Plugins' screen in WordPress.
 
 ## Usage
 
-After installation, 'Year Picker' will be available as a field type in the ACF field editor:
+After installation and activation:
 
-1. Go to `Custom Fields` in your WordPress admin panel.
+1. Navigate to your WordPress admin panel's 'Custom Fields' section.
 2. Create a new field group or edit an existing one.
-3. Add a new field and set the field type to 'Year Picker'.
-4. Configure the field settings as necessary.
+3. Add a new field and select 'Year Picker' as the field type.
+4. Configure any additional settings for the field as needed.
+
+The 'Year Picker' field will now be available for use within posts, pages, or custom post types based on your ACF field group settings.
+
 
 ## Customization
 
-You can customize the year range by editing the `acf-year-picker.js` file.
+The year range displayed by the Year Picker can be adjusted by editing the `acf-year-picker.js` file.
 
 ## Dependencies
 
-- Advanced Custom Fields plugin
+This plugin requires:
+
+- WordPress 5.0 or higher
+- Advanced Custom Fields PRO (ACF)  plugin
 
 ## Contributing
 
-Contributions, issues, and feature requests are welcome! Feel free to check [issues page](<link-to-your-issues-page>).
+Contributions to the plugin are welcome. Please feel free to fork, modify, and make pull requests or report issues.
 
 ## License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+This plugin is open-sourced software licensed under the [GPLv2](http://www.gnu.org/licenses/gpl-2.0.html) license.
 
 ## Contact
 
 Wajid Khan - [@mawkkhan]([https://twitter.com/YourTwitter](https://twitter.com/mawkkhan))
 
-## Acknowledgements
+## Acknowledgments
 
-- [Advanced Custom Fields](https://www.advancedcustomfields.com/)
+- Thanks to the creators of Advanced Custom Fields for their incredible plugin.
+- jQuery UI Datepicker for the date-picking functionality.
