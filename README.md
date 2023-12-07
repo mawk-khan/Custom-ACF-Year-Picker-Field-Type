@@ -43,7 +43,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-Your Name - [@YourTwitter]([https://twitter.com/YourTwitter](https://twitter.com/mawkkhan))
+Wajid Khan - [@mawkkhan]([https://twitter.com/YourTwitter](https://twitter.com/mawkkhan))
 
 ## Acknowledgements
 
