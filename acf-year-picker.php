@@ -55,7 +55,7 @@ if( !class_exists('acf_field_year_picker') && class_exists('acf_field') ) :
             // Enqueue the ACF date picker CSS
             wp_enqueue_style('acf-jquery-ui-datepicker', '/wp-content/plugins/advanced-custom-fields-pro/assets/inc/datepicker/jquery-ui.min.css', array(), '1.11.4');
             // Enqueue custom JavaScript file for the Year Picker
-            wp_enqueue_script('acf-input-year_picker', get_template_directory_uri() . '/dist/assets/acf-year-picker.js', array('acf-input', 'jquery-ui-datepicker'), false, true);
+            wp_enqueue_script('acf-input-year_picker', get_template_directory_uri() . 'acf-year-picker.js', array('acf-input', 'jquery-ui-datepicker'), false, true);
         }
     }
     // Instantiate the field type
